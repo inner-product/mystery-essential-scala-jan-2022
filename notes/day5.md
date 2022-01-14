@@ -96,6 +96,8 @@ Usual scoping rules apply---implicit class must be in scope.
 
 If a type already has a method implicit classes are not considered at all.
 
+Implicit classes cannot be defined at the top level---must be wrapped in a class or object. Usually in a companion object or a "syntax" object.
+
 
 ## Monix
 
